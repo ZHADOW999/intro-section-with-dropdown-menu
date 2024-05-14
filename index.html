@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRONTEND MENTOR || INTRO SECTION WITH DROPDOWN NAVIGATION MAIN</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="hero-section">
+        <nav class="nav-section">
+            <h1 class="snap">snap</h1>
+            
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-btn"><i class="fa-solid fa-bars"></i></label>
+            <div class="nav-list">
+                <div class="filler"></div>
+                <ul class="list-contents">
+                    <li id="dropdown-rel"><a class="dropdown-rel" onclick="myFunction()"> Feature<img alt="arrow-dark" id="arrow" src="./images/icon-arrow-down.svg" class="arrow-dark"></a>
+
+                        <ul class="dropdown" id="dropdown1">
+                            <li><a><img class="dropdown-icon" alt="todo_list-icon" src="./images/icon-todo.svg">Todo list</a></li>
+                            <li><a><img class="dropdown-icon" alt="Calendar" src="./images/icon-calendar.svg">Calendar</a></li>
+                            <li><a><img class="dropdown-icon" alt="reminders-icon" src="./images/icon-reminders.svg">Reminders</a></li>
+                            <li><a><img class="dropdown-icon" alt="planning-icon" src="./images/icon-planning.svg">Planning</a></li>
+                        </ul>
+                        
+                    </li>
+
+                    <li id="dropdown-rel-2"><a class="dropdown-rel-2" onclick="myFunction2()"> Company<img alt="arrow-dark" id="arrow-2" src="./images/icon-arrow-down.svg" class="arrow-dark"></a>
+
+                        <ul class="dropdown-2" id="dropdown2">
+                            <li>History</li>
+                            <li>Our Team</li>
+                            <li>Blog</li>
+                        </ul>
+                        
+                    </li>
+
+                    <li>Careers</li>
+
+                    <li>About</li>
+                    
+                </ul>
+                
+                
+                <div class="nav-end">
+                    <div class="line"></div>
+                    <p class="nav-but-1">Login</p>
+                    <p class="nav-but-2">Register</p>
+                </div>
+                
+            </div>
+            
+        </nav>
+    </div><br><br><br> 
+
+<main>
+    
+    <img alt="hero_img" class="hero-img2" src="./images/image-hero-mobile.png">
+    <section>
+        
+        <div class="text-half">
+            <h2>Make remote work</h2>
+            <p class="text">Get Your is snyc, no matter your location. Streamline processes, create team rituals, and watch productivity soar .</p>
+            <p class="button">Learn more</p>
+            <div class="mark-flex">
+                <img src="./images/client-databiz.svg">
+                <img src="./images/client-audiophile.svg">
+                <img src="./images/client-meet.svg">
+                <img src="./images/client-maker.svg">
+            </div>
+        </div>
+        <div class="hero-img">
+        <img alt="hero_img" src="./images/image-hero-desktop.png">
+         </div>
+    </section>
+</main>
+    <script src="./index.js"></script>  
+</body>
+</html>
